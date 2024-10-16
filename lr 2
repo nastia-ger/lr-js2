@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Задание 1</title>
+    </head>
+    <body>
+        <script>
+            /*задание 1
+           let a=0
+           if (a==0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           } 
+
+
+            let a=1
+           if (a==0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+
+            let a=-3 
+           if (a==0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+
+          //задание 2
+           let a=-3
+           if (a>0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+
+           let a=-3
+           if (a>0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+
+           let a=1
+           if (a>0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+
+          //3 задание
+          let a=0
+           if (a<0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+           let a=-3
+           if (a>0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+           let a=1
+           if (a>0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+        //  4 Задание
+        let a=0
+           if (a>=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+          let a=-3
+           if (a>=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+            let a=1
+           if (a>=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')}
+
+        //5 Задание
+        let a=0
+           if (a<=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+          let a=-3
+           if (a<=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+            let a=1
+           if (a<=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')}
+
+        //6 Задание 
+        let a=0
+           if (a!=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+          let a=-3
+           if (a!=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')
+           }
+
+            let a=1
+           if (a!=0){
+            alert('Верно')
+           }
+           else{
+            alert('Неверно')}
+
+        //7 Задание
+        test=prompt('Введите значение переменной ')
+        if (test=='test'){
+            alert('Верно')
+        }
+        else{ alert('Неверно')}
+
+        // 8 Задание
+        a=prompt('Введите значение переменной ')
+        if (a == 1) {alert("Верно");} else {alert('Неверно');}
+
+        //9 Задание
+        test = true
+        if (test == true) {alert("Верно")} else{alert("неверно")}
+
+        test=true
+        test=true?alert("Верно"): alert("неверно")
+
+        //10 Задание
+
+        test = false
+        if (test != true ){alert("верно");} else{alert("неверно");}
+        test=true?alert("Верно"): alert("неверно")
+
+       // 11 Задание
+       a=prompt('Введите значение переменной ')
+       if(a>0 && a<5) {alert('Верно')} 
+       else {alert ('Неверно')}
+//12 Задание
+       a=parseInt(prompt('Введите a'))
+        if (a===0  a===2){
+            a=a+7
+        }
+        else {a=a/10}
+        alert (a)
+
+        //13 Задание
+
+       a=parseInt(prompt('Введите a'))
+       b=parseInt(prompt('Введите b'))
+       if(a<=1 && b>=3) {res=a+b } 
+       else{
+        res=a-b
+       }
+        alert(res)
+
+        //14 Задание
+       a=parseInt(prompt('Введите a'))
+       b=parseInt(prompt('Введите b'))
+       if(a>2 && a<11  b>=6 && b<14) {
+        alert('Верно ')
+        } 
+        else{
+            alert('Неверно')
+        }
+
+        //15 Задание
+       num= prompt('Введите num(1-4)')
+        switch(num){
+        case '1': 
+        alert('Зима');
+             break;
+        case '2':
+             alert('Весна');
+             break;
+        case '3':
+             alert('Лето');
+             break;
+        case '4': 
+            alert('Осень');
+            break;
+        default:alert('Not correct number');
+        break;
+     }
+
+     //16 Задание 
+     day=prompt('Введите день(1-31)')
+     if(1<=day && day <=10 ){
+        alert('Первая декада месяца')
+     }
+     else if (11 <= day && day <= 20){
+        alert('Вторая декада месяца')
+     }
+     else if(21<= day && day<=31) {
+        alert('Третья декада месяца')
+     }
+     else{
+        alert('Неправильно введено число')
+     }
+
+     //17 Задание
+     month=prompt('Введите месяц(1-12)')
+        switch(month){
+            case '1' : alert('Зима');break;
+            case '2' : alert('Зима');break;
+            case '12' : alert('Зима');break;
+            case '3' : alert('Весна');break;
+            case '4' : alert('Весна');break;
+            case '5' : alert('Весна');break;
+            case '6' : alert('Лето');break;
+            case '7' : alert('Лето');break;
+            case '8' : alert('Лето');break;
+            case '9' : alert('Осень');break;
+            case '10' : alert('Осень');break;
+            case '11' : alert('Осень');break;
+            default:alert('Неправильно введён месяц')
+        }
+
+        //18 Задание
+        str=prompt('Введите строку английскими символами')
+        if (str[0]=='a' ){
+            alert('Да')
+        }
+        else {
+            alert('нет')
+        }
+
+        //19 Задание
+        numb=prompt('Введите  строку цифр')
+       
+        if (numb[0]=='1')  {
+            alert('Да')
+        }
+        else if(numb[0]=='2' ){
+            alert('Да')
+        }
+        else if(numb[0]=='3' )
+        {alert('Да')
+
+         }
+        else{
+            alert('Нет')
+        }
+
+        //20 Задание
+
+        numb=prompt('Введите  строку из 3 цифр')
+        first=parseInt(numb[0])
+        second=parseInt(numb[1])
+        third=parseInt(numb[2])
+        res=first+second+third
+        alert(res)
+
+        //21 Задание
+        numb=prompt('Введите  строку из 6 цифр')
+        first1=parseInt(numb[0])
+        second1=parseInt(numb[1])
+        third1=parseInt(numb[2])
+        firstNumb1=first1+second1+third1
+        first2=parseInt(numb[3])
+        second2=parseInt(numb[4])
+        third2=parseInt(numb[5])
+        firstNumb2=first2+second2+third2
+
+        if (firstNumb1==firstNumb2){
+            alert('Да')
+        }
+        else{
+            alert('Нет')
+        }*/
+        </script> 
+    </body>
+</html>
